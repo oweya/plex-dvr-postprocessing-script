@@ -1,8 +1,8 @@
 SET infile=%1
 SET tmpfile=%1.mp4
-SET scriptlog=F:\PlexStuff\dvrpostprocesslog.txt
-SET handbrakepath="D:\Program Files\HandBrake\HandbrakeCLI.exe"
-SET handbrakepresetpath=F:\plexstuff\plexdvrhandbrakesettings.json
+SET scriptlog=[full path to log file]
+SET handbrakepath=[full path to handbrakecli]
+SET handbrakepresetpath=[full path to handbrake preset json file]
 
 ECHO.
 ECHO Starting processing %date% %time%>> %scriptlog%
